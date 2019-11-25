@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: Main Title
-subheading: Main Sub-Heading
+subtitle: Main Sub-Heading
 image: /img/home-jumbotron.jpg
 heading: Out of Place Heading
 mainpitch:

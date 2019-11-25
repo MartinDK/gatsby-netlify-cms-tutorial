@@ -60,7 +60,7 @@ export const IndexPageTemplate = ({
             padding: '0.25em',
           }}
         >
-          {subheading}
+          {subtitle}
         </h3>
       </div>
     </div>
