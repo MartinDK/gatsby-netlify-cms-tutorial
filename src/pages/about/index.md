@@ -1,6 +1,6 @@
 ---
 templateKey: about-page
-title: About our values
+title: About Title
 ---
 ### About Me
 Blah Blah Blah
