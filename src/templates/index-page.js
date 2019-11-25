@@ -70,19 +70,19 @@ export const IndexPageTemplate = ({
           <div className="columns">
             <div className="column is-10 is-offset-1">
               <div className="content">
-                <div className="content">
-                  <div className="tile">
-                    <h1 className="title">{mainpitch.title}</h1>
-                  </div>
-                  <div className="tile">
-                    <h3 className="subtitle">{mainpitch.description}</h3>
-                  </div>
-                </div>
                 <div className="columns">
                   <div className="column is-12">
                     <h3 className="has-text-weight-semibold is-size-2">
                       {heading}
                     </h3>
+                      <div className="content">
+                        <div className="tile">
+                          <h1 className="title">{mainpitch.title}</h1>
+                        </div>
+                        <div className="tile">
+                          <h3 className="subtitle">{mainpitch.description}</h3>
+                        </div>
+                      </div>
                     <p>{description}</p>
                   </div>
                 </div>
@@ -159,6 +159,7 @@ export const pageQuery = graphql`
     markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
       frontmatter {
         title
+        subtitle
         image {
           childImageSharp {
             fluid(maxWidth: 2048, quality: 100) {
@@ -167,7 +168,6 @@ export const pageQuery = graphql`
           }
         }
         heading
-        subtitle
         mainpitch {
           title
           description

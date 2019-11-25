@@ -3,12 +3,12 @@ templateKey: index-page
 title: Main Title
 subtitle: Main Sub-Heading
 image: /img/home-jumbotron.jpg
-heading: Out of Place Heading
+heading: Content Heading
 mainpitch:
   title: Pitch Title
   description: |
     Description
-description: Article
+description: Content description.
 intro:
   blurbs:
     - image: /img/coffee-gear.png
