@@ -29,11 +29,9 @@ testimonials:
     quote: Testimonial
 full_image: /img/og-image.jpg
 pricing:
-  heading: Monthly subscriptions
+  heading: Subscription Test
   description: >-
-    We make it easy to make great coffee a part of your life. Choose one of our
-    monthly subscription plans to receive great coffee at your doorstep each
-    month. Contact us about more details and payment info.
+    Edited in Visual Code and pushed to Git. 15:20
   plans:
     - description: Perfect for the drinker who likes to enjoy 1-2 cups per day.
       items:
