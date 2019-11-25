@@ -8,4 +8,4 @@ featuredimage: /img/img_3122.jpg
 tags:
   - first
 ---
-The SCAA updated the wheel to reflect the finer nuances needed to describe
+This is my first post
