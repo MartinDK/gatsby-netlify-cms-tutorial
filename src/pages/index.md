@@ -5,9 +5,11 @@ subtitle: Main Sub-Heading
 image: /img/home-jumbotron.jpg
 heading: Content Heading
 mainpitch:
-  title: Pitch Title
+  title: Main Pitch Title
   description: |
     Description
+    - one
+    - two __the__
 description: Content description.
 intro:
   blurbs:
