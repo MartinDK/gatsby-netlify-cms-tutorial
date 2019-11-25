@@ -6,7 +6,8 @@ description: Start
 featuredpost: true
 featuredimage: /img/img_3122.jpg
 tags:
-  - first blog
+  - first
+  - blog
 ---
 This is my first post.
 
