@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: Hello World Test
+title: This Post is Live
 date: 2019-11-25T02:56:10.000Z
 description: Move to draft
 featuredpost: true
