@@ -1,16 +1,14 @@
 ---
 templateKey: index-page
-title: Main Title
-subtitle: Main Sub-Heading
+title: Martindk
+subtitle: Personal Website
 image: /img/home-jumbotron.jpg
-heading: Content Heading
+heading: Topics
 mainpitch:
-  title: Main Pitch Title
+  title: '#AusPol'
   description: |
-    Description
-    - one
-    - two __the__
-description: Content description.
+    I'm a keen follower of #AusPol on twitter
+description: I try to share thoughts that are independent of any political tribe.
 intro:
   blurbs:
     - image: /img/coffee-gear.png
