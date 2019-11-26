@@ -1,8 +1,8 @@
 ---
 templateKey: blog-post
-title: Can’t Create A Draft
+title: This Is A Draft
 date: 2019-11-26T22:25:46.851Z
-description: The current CMS configuration doesn’t allow the creation of drafts.
+description: The CMS is setup for editorial workflow.
 featuredpost: true
 featuredimage: /img/apple-touch-icon.png
 tags:
