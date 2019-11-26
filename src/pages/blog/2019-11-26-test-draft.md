@@ -6,7 +6,7 @@ description: Ready to be published
 featuredpost: true
 featuredimage: /img/safari-pinned-tab.svg
 tags:
-  - draft
+  - inReview
   - blog
 ---
 This is in review.
