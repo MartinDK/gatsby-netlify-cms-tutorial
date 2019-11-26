@@ -1,7 +1,6 @@
 ---
 templateKey: about-page
-title: About Title
+title: About Page
 ---
-### About Me
-Blah Blah Blah
+There will alway be differnt political parties, but voters should be fiercely independent.
 
