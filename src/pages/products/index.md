@@ -1,9 +1,9 @@
 ---
 templateKey: product-page
-title: 'Products: Title'
+title: The Topics
 image: /img/jumbotron.jpg
-heading: 'Products: Heading'
-description: Description
+heading: '#AusPol'
+description: '#AusPol is the hashtag following Australian politics on twitter.'
 intro:
   blurbs:
     - image: /img/coffee.png
@@ -12,9 +12,9 @@ intro:
   heading: 'Intro: Heading Test'
   description: Description
 main:
-  heading: 'Main: Heading'
+  heading: Independent Thinking
   description: |
-    Description
+    Good ideas don't belong to any political movement.
   image1:
     alt: A close-up of a paper filter filled with ground coffee
     image: /img/apple-touch-icon.png
@@ -29,16 +29,15 @@ testimonials:
     quote: Testimonial
 full_image: /img/og-image.jpg
 pricing:
-  heading: Subscription Test
-  description: >-
-    Edited in Visual Code and pushed to Git. 15:20
+  heading: Subscription
+  description: Help support the website.
   plans:
-    - description: Perfect for the drinker who likes to enjoy 1-2 cups per day.
+    - description: 'Independent '
       items:
-        - 3 lbs of coffee per month
-        - Green or roasted beans"
-        - One or two varieties of beans"
-      plan: Small
-      price: '50'
+        - Thoughtful
+        - Funny
+        - Intelligent
+      plan: cost per month
+      price: '5'
 ---
 
