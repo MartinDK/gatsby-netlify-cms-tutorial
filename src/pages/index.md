@@ -2,7 +2,7 @@
 templateKey: index-page
 title: Martindk
 subtitle: Personal Website
-image: /img/home-jumbotron.jpg
+image: /img/lake-cancano.jpg
 heading: Topics
 mainpitch:
   title: '#AusPol'
