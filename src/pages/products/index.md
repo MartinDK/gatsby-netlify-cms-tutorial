@@ -1,6 +1,6 @@
 ---
-templateKey: todo-page
-title: The Topics
+templateKey: product-page
+title: Todo Page
 image: /img/jumbotron.jpg
 heading: '#AusPol'
 description: '#AusPol is the hashtag following Australian politics on twitter.'
