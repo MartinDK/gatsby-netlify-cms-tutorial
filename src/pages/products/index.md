@@ -1,5 +1,5 @@
 ---
-templateKey: product-page
+templateKey: todo-page
 title: Todo Page
 image: /img/jumbotron.jpg
 heading: '#AusPol'
