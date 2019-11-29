@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { TodoTemplate } from '../../templates/todo-page'
+import { TodoPageTemplate } from '../../templates/todo-page'
 
 const TodoPagePreview = ({ entry, getAsset }) => {
   const entryBlurbs = entry.getIn(['data', 'intro', 'blurbs'])
@@ -13,7 +13,7 @@ const TodoPagePreview = ({ entry, getAsset }) => {
   const pricingPlans = entryPricingPlans ? entryPricingPlans.toJS() : []
 
   return (
-    <TodoTemplate
+    <TodoPageTemplate
       image={entry.getIn(['data', 'image'])}
       title={entry.getIn(['data', 'title'])}
       heading={entry.getIn(['data', 'heading'])}
