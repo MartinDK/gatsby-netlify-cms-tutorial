@@ -7,7 +7,7 @@ import Testimonials from '../components/Testimonials'
 import Pricing from '../components/Pricing'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
-export const TodoPageTemplate = ({
+export const ProjectPageTemplate = ({
   image,
   title,
   heading,
@@ -104,7 +104,7 @@ export const TodoPageTemplate = ({
   </div>
 )
 
-TodoPageTemplate.propTypes = {
+ProjectPageTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   title: PropTypes.string,
   heading: PropTypes.string,
@@ -128,12 +128,12 @@ TodoPageTemplate.propTypes = {
   }),
 }
 
-const TodoPage = ({ data }) => {
+const ProjectPage = ({ data }) => {
   const { frontmatter } = data.markdownRemark
 
   return (
     <Layout>
-      <TodoPageTemplate
+      <ProjectPageTemplate
         image={frontmatter.image}
         title={frontmatter.title}
         heading={frontmatter.heading}
@@ -148,7 +148,7 @@ const TodoPage = ({ data }) => {
   )
 }
 
-TodoPage.propTypes = {
+ProjectPage.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.shape({
       frontmatter: PropTypes.object,
@@ -156,10 +156,10 @@ TodoPage.propTypes = {
   }),
 }
 
-export default TodoPage
+export default ProjectPage
 
-export const TodoPageQuery = graphql`
-  query TodoPage($id: String!) {
+export const ProjectPageQuery = graphql`
+  query ProjectPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       frontmatter {
         title
